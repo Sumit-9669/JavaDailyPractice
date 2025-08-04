@@ -37,9 +37,11 @@ public class ScannerClass {
 		System.out.println("Enter your salary ");
 		double salary = sc.nextDouble();
 
-		System.out.println("Hello, My name is " + name + ", age is " + age + "my salary is " + salary);
+		System.out.println("Hello, My name is " + name + ", age is " + age + " my salary is " + salary);
 		exercise1(sc);
 		exercise2(sc);
+		exercise3(sc);
+		exercise4(sc);
 		sc.close();
 
 	}
@@ -86,7 +88,7 @@ public class ScannerClass {
 	 * 
 	 */
 	public static void exercise1(Scanner sc) {
-		// Scanner sc = new Scanner(System.in);
+
 		System.out.println("Enter first number: ");
 		int num1 = sc.nextInt();
 		System.out.println("Enter second number: ");
@@ -128,6 +130,62 @@ public class ScannerClass {
 		} else {
 			System.out.println(number + " is odd");
 		}
+	}
+
+	/*
+	 * Exercise 3: Write a program that:
+	 * 
+	 * Asks for name and age.
+	 * 
+	 * If age >= 18, print “Hello [name], you are eligible to vote.”
+	 * 
+	 * Else print “Sorry [name], you are not eligible.”
+	 */
+
+	public static void exercise3(Scanner sc) {
+
+		sc.nextLine();
+		System.out.println("Enter your name: ");
+		String name = sc.nextLine();
+		System.out.println("Enter your age: ");
+		int age = sc.nextInt();
+
+		if (age >= 18) {
+			System.out.println("Hello " + name + ", You are eligible to vote");
+		} else {
+			System.out.println("Sorry " + name + ", You are not eligible");
+		}
+
+	}
+
+	/*
+	 * Exercise 4 (Challenge): Take 3 numbers from user and find the largest number
+	 * using:
+	 * 
+	 * if-else statements
+	 * 
+	 * logical operators
+	 */
+
+	public static void exercise4(Scanner sc) {
+
+		sc.nextLine();
+		System.out.println("Enter three numbers ");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+
+		int largest;
+
+		if (a >= b && a >= c) {
+			largest = a;
+		} else if (b >= a && b >= c) {
+			largest = b;
+		} else {
+			largest = c;
+		}
+		System.out.println("The largest number is " + largest);
+
 	}
 
 }
