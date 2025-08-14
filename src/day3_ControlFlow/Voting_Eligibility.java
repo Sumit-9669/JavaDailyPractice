@@ -1,8 +1,8 @@
-package java_basics;
+package day3_ControlFlow;
 
 import java.util.Scanner;
 
-public class Conditional_Statements_1 {
+public class Voting_Eligibility {
 
 	public static void main(String[] args) {
 		

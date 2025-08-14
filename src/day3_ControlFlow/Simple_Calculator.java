@@ -1,4 +1,4 @@
-package java_basics;
+package day3_ControlFlow;
 
 import java.util.Scanner;
 

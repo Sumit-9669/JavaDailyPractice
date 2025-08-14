@@ -1,8 +1,8 @@
-package java_basics;
+package day3_ControlFlow;
 
 import java.util.Scanner;
 
-public class Conditional_Statements_2 {
+public class Grade_Checker {
 
 	public static void main(String[] args) {
 		
