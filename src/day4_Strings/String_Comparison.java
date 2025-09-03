@@ -30,7 +30,6 @@ public class String_Comparison {
 		// Using .equalsIgnoreCase()
 		System.out.println("s1.equalsIgnoreCase(s4) : " + s1.equalsIgnoreCase(s4)); //true
 		
-
 	}
 
 }
