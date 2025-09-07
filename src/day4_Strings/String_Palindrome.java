@@ -20,6 +20,6 @@ public class String_Palindrome {
 		} else {
 			System.out.println(str + " is not palindrome");
 		}
-	}
+	}	
 
 }
