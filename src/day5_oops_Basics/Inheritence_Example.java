@@ -1,5 +1,31 @@
 package day5_oops_Basics;
 
+/*Write a program to demonstrate Inheritance, where child classes reuse and extend the behavior of a parent class.
+
+🔹 Explanation
+
+Inheritance allows one class to acquire properties & methods of another class.
+
+Parent class (superclass) → the general class (Vehicle).
+
+Child class (subclass) → the specific class (Car1, Bike).
+
+>>> Benefits:
+
+Code reusability
+
+Easy maintenance
+
+Logical hierarchy
+
+>>> Types of Inheritance in Java:
+
+Single (A → B)
+
+Multilevel (A → B → C)
+
+Hierarchical (A → B and A → C)*/
+
 // Parent class
 class Vehicle {
 	String brand;
